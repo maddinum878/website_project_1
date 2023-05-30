@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+  display: flexbox;
+  flex: 2 2 360px;
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("https://wallpaperboat.com/wp-content/uploads/2020/11/13/60417/programming-minimalist-16.jpg");
+}
+
+.left {
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  line-height: 57px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.left:hover {
+  color: pink;
+  /* box-shadow: 10px 10px 100px cyan; */
+}
+
+.left img {
+  width: 136px;
+}
+
+.left div {
+  line-height: 50px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.mid {
+  display: block;
+  width: 39%;
+  margin: 20px auto;
+  /* border: 2px solid green; */
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 43px;
+  /* display: inline-block; */
+  /* border: 2px solid yellow; */
+  flex-wrap: wrap;
+  flex: 20 30 50px;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  /* font-size: 15px; */
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: pink;
+}
+
+.btn {
+  font-family: 'Archivo Black', sans-serif;
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(53, 53, 53);
+  color: pink;
+  border: 2px solid rgb(247, 132, 208);
+  box-shadow: 4px 4px 100px cyan;
+}
+
+.container {
+  border: 2px solid pink;
+  width: 33%;
+  margin: 106px 80px;
+  padding: 75px;
+  border-radius: 25px;
+  flex: 2 2 360px;
+}
+
+.container:hover{
+  box-shadow: 5px 4px 25px cyan;
+}
+
+.form-group input{
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
+  display: block;
+  width: 75%;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 13px;
+  margin: 11px auto;
+}
+
+.container h1{
+  text-align: center;
+  color: rgb(119, 255, 255);
+}
+
+.container h1:hover{
+  color: cyan;
+}
+
+.container button{
+  display: block;
+  width: 74%;
+  margin: 20px auto;
+  padding: 9px;
+}
+
+.container input:hover{
+  box-shadow: 4px 4px 25px cyan;
+}
+
